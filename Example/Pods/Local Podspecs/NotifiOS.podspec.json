@@ -1,9 +1,9 @@
 {
   "name": "NotifiOS",
   "version": "0.1.0",
-  "summary": "A short description of NotifiOS.",
+  "summary": "Simple Notification View for iOS",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/NotifiOS",
+  "homepage": "https://github.com/pkrll/NotifiOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Ardalan Samimi": "ardalan.samimi@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/NotifiOS.git",
+    "git": "https://github.com/pkrll/NotifiOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NotifiOS/Classes/**/*"
+  "source_files": "NotifiOS/Classes/**/*",
+  "frameworks": "UIKit"
 }

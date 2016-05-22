@@ -12,34 +12,30 @@ public class NotifiOS: UIView {
    *  - Note: Use setTitle(_:) method to set the title label's string text.
    *  - Note: The title label will be positioned below the image view, if set.
    */
-  private(set) var titleLabel: UILabel?
+  public private(set) var titleLabel: UILabel?
   /**
    *  The image view of the notification view.
    *  - Note: Use setImage(_:) to set the image.
    *  - Note: The image will be hidden if the activity indicator is on.
    */
-  private(set) var imageView: UIImageView?
+  public private(set) var imageView: UIImageView?
   /**
    *  The image that is displayed by the image view.
    */
-  private(set) var image: UIImage?
+  public private(set) var image: UIImage?
   /**
    *  An activity indicator.
    *  - Note: Use loadIndicator(_:) method to activate the indicator.
    *  - Note: The activity indicator will hide the image view while active.
    */
-  private(set) var activityIndicator: UIActivityIndicatorView?
+  public private(set) var activityIndicator: UIActivityIndicatorView?
   /**
    *  The maximum dimensions of the view.
    *
    *  The view will automatically size itself. The maxDimension property determines the maximum height och width of the view.
    *  - Note: Use the init(withMaxDimension:) method to set the maximum dimensions of the view.
    */
-  private(set) var maxDimension: CGSize!
-  /**
-   *  Returns true if the fade out process has started.
-   */
-  private(set) var cancelFadeOut: Bool = false
+  public private(set) var maxDimension: CGSize!
   /**
    *  The notification view will position itself at the center of its superview. Use this property to set the point at which the view is offset from the superviews origin.
    */
@@ -52,8 +48,9 @@ public class NotifiOS: UIView {
   /**
    *  The number of seconds the view should be displayed.
    *  - Note: If set, the view will automatically start the fadeout after the provided number of seconds.
+   *  - Note: The default value is 1.
    */
-  public var delayFadeOut: Double = 0
+  public var delayFadeOut: Double = 1
   /**
    *  The callback that will be fired after the fadeout has finished.
    */
@@ -129,7 +126,7 @@ public class NotifiOS: UIView {
       if let imageView = self.imageView {
         NSLayoutConstraint(item: label, attribute: .Top, relatedBy: .Equal, toItem: imageView, attribute: .Bottom, multiplier: 1, constant: 2).active = true
       } else {
-        NSLayoutConstraint(item: label, attribute: .Top, relatedBy: .Equal, toItem: self, attribute: .Top, multiplier: 1, constant: 5).active = true
+        NSLayoutConstraint(item: label, attribute: .Top, relatedBy: .Equal, toItem: self, attribute: .Top, multiplier: 1, constant: 10).active = true
       }
     }
     
@@ -151,7 +148,7 @@ public class NotifiOS: UIView {
    */
   private func fadeOut(duration: NSTimeInterval, completion: (() -> Void)?) {
     // The fade out will only go to 0.001 before removing. This allows for touch events to work.
-    UIView.animateWithDuration(duration, delay: self.delayFadeOut, options: [.AllowUserInteraction], animations: { self.alpha = 0.001 }) { (_: Bool) in
+    UIView.animateWithDuration(duration, delay: self.delayFadeOut, options: [.AllowUserInteraction], animations: { self.alpha = 0.1 }) { (_: Bool) in
       self.removeFromSuperview()
       completion?()
     }
@@ -161,18 +158,20 @@ public class NotifiOS: UIView {
     if self.activityIndicator == nil {
       self.activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .WhiteLarge)
       self.activityIndicator?.hidesWhenStopped
-      
       if self.imageView == nil {
+        let size = (withSize == nil) ? CGSize(width: self.activityIndicator!.frame.width, height: self.activityIndicator!.frame.height) : withSize!
         
+        self.setImage(UIImage(), withSize: size)
       } else {
         self.imageView?.image = nil
       }
       
-      let size = withSize ?? CGSize(width: self.maxDimension.width ?? 0, height: self.maxDimension.height ?? 0)
+      let size = withSize ?? CGSize(width: self.imageView?.frame.width ?? 0, height: self.imageView?.frame.height ?? 0)
       
       self.activityIndicator!.frame = CGRect(x: 0, y: 0, width: size.width, height: size.height)
       self.imageView?.addSubview(self.activityIndicator!)
       self.activityIndicator!.contentMode = .Center
+      self.imageView?.contentMode = .Center
     }
     
     self.activityIndicator?.startAnimating()

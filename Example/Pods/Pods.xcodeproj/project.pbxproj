@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4358CAE78965CA0CB0D15E75D6EBE27F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8C4EE49F430CF38ECE95CF8E8AD59 /* ReplaceMe.swift */; };
-		4765FA726DC37EA5B77619545A7D77AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		438CEED7770B1292296EB747DF54C215 /* NotifiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF833239680DEDD0DF27A3D69C7B6A70 /* NotifiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4765FA726DC37EA5B77619545A7D77AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		609B7C0B1E3BE5FA29B6F678DFFC3EB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
 		6218E5539E492D83B85A70E31F538AD0 /* Pods-NotifiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B59DCD6952C2DF7064447E80B78115 /* Pods-NotifiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D342EB64D4AB784C9DE8992A2E8196 /* Pods-NotifiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAAD97E99463189CB5D29C7FEEDCAA9 /* Pods-NotifiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F2EA4A246E9B1050CAE16DA1273ECE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		CC0B8CD1E53EE322A3D4C1CCAE448631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BD7F8949C17F34B65389C84630F69C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		CC0B8CD1E53EE322A3D4C1CCAE448631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		D3F56C7B7D1AE11A8210D94D9AE0E5EA /* NotifiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E11653A7005B450915974D676AF255 /* NotifiOS-dummy.m */; };
 		D74B1EA51500BCC50B63C73E7DD379EB /* Pods-NotifiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA75426ED34F5E64183325523ACA01B /* Pods-NotifiOS_Example-dummy.m */; };
-		DA8FB194455AFA8E625B5A4FE03AB11E /* NotifiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E11653A7005B450915974D676AF255 /* NotifiOS-dummy.m */; };
 		E406E45146CA60D7205F0D31A4D81AF1 /* Pods-NotifiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF36A84E32BB5FD9F7849D29340E73 /* Pods-NotifiOS_Tests-dummy.m */; };
-		EC5E9B1833A59AA5B7A83D7578DC4A51 /* NotifiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF833239680DEDD0DF27A3D69C7B6A70 /* NotifiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E51F52B3ED968F34BB1A43638DE612 /* NotifiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4F957744850303179322EECC2E265 /* NotifiOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 45B78A7AF014A4021BC4C44F6C2CCAE8;
+			remoteGlobalIDString = AF61F031ADC4240DB67EA05412240F91;
 			remoteInfo = NotifiOS;
 		};
 /* End PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		0E27354A6FD2E54C03581D67E0407CF5 /* NotifiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotifiOS.xcconfig; sourceTree = "<group>"; };
 		1027BA51FA41F3BB4384C1B7AC922C91 /* NotifiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotifiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A8F181082C7DBCA2113EF0F8F63630 /* NotifiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotifiOS-prefix.pch"; sourceTree = "<group>"; };
-		3BA8C4EE49F430CF38ECE95CF8E8AD59 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4132C562F57820576532CED9C8C14862 /* Pods-NotifiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotifiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C086F6206E71DFA89FE42484346B3C3 /* Pods-NotifiOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifiOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4C9F16AD1631BE8C3E73F5D288E08BB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96E11653A7005B450915974D676AF255 /* NotifiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotifiOS-dummy.m"; sourceTree = "<group>"; };
 		9AAF8F680957E7E89D9381DF1DA25F03 /* Pods-NotifiOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotifiOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A3B4F957744850303179322EECC2E265 /* NotifiOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotifiOS.swift; sourceTree = "<group>"; };
 		A92BEF6EF156FAAB0EEAEC425D633276 /* Pods-NotifiOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotifiOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFABE5A2235D38CE83A12B24E0D7A012 /* Pods-NotifiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B33145A092D974430178A5D07CEB789B /* Pods_NotifiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotifiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,10 +58,10 @@
 		BFDC7744EE28D111B1D4CCF716472D6C /* Pods-NotifiOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifiOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C63D4B8A2E80FCB18231EDD9828072E3 /* Pods-NotifiOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NotifiOS_Example.modulemap"; sourceTree = "<group>"; };
 		CEA75426ED34F5E64183325523ACA01B /* Pods-NotifiOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotifiOS_Example-dummy.m"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4BF36A84E32BB5FD9F7849D29340E73 /* Pods-NotifiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotifiOS_Tests-dummy.m"; sourceTree = "<group>"; };
 		D8B59DCD6952C2DF7064447E80B78115 /* Pods-NotifiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotifiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DCBC1208B93661EC53EF8A5A9F12E22D /* Pods-NotifiOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotifiOS_Example-resources.sh"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E898656D51FBFEE5E5FAE06A0D5E47F4 /* Pods-NotifiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotifiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF833239680DEDD0DF27A3D69C7B6A70 /* NotifiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotifiOS-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,11 +83,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E15C82778C8944B91C1D40EC59BADDE2 /* Frameworks */ = {
+		D9E38824A955C7E3D239540062F84E40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2EA4A246E9B1050CAE16DA1273ECE6 /* Foundation.framework in Frameworks */,
+				BD7F8949C17F34B65389C84630F69C8B /* Foundation.framework in Frameworks */,
+				609B7C0B1E3BE5FA29B6F678DFFC3EB2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,17 +98,9 @@
 		05933804FA66B322E1DE3CCCA681774D /* NotifiOS */ = {
 			isa = PBXGroup;
 			children = (
-				116C11BC30778137C9203008B4D8D64A /* Classes */,
+				5C56BD14A47EB44A48D795C941710966 /* Classes */,
 			);
 			path = NotifiOS;
-			sourceTree = "<group>";
-		};
-		116C11BC30778137C9203008B4D8D64A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3BA8C4EE49F430CF38ECE95CF8E8AD59 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		34617AB767C7942D44765B2B8C799285 /* Pods-NotifiOS_Tests */ = {
@@ -136,12 +131,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C56BD14A47EB44A48D795C941710966 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3B4F957744850303179322EECC2E265 /* NotifiOS.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		6C983FACF25D2CE9CE5AE12BE537004B /* NotifiOS */ = {
@@ -167,7 +170,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				794FFEB37EE0B4194A73EE2003409FFE /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				3879D06E9990541AE10E2DE7662B3A38 /* Products */,
 				FFFC2D7E66863B6F1C300377A7C902A0 /* Targets Support Files */,
 			);
@@ -205,12 +208,13 @@
 			path = "Example/Pods/Target Support Files/NotifiOS";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		FFFC2D7E66863B6F1C300377A7C902A0 /* Targets Support Files */ = {
@@ -225,11 +229,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E8313A32833BAEFEBDED9E90B38C74F /* Headers */ = {
+		65E352255A5AB67F7705445635FC9861 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5E9B1833A59AA5B7A83D7578DC4A51 /* NotifiOS-umbrella.h in Headers */,
+				438CEED7770B1292296EB747DF54C215 /* NotifiOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,23 +256,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		45B78A7AF014A4021BC4C44F6C2CCAE8 /* NotifiOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 909A4622C4361DE9C37A613487AE5FEB /* Build configuration list for PBXNativeTarget "NotifiOS" */;
-			buildPhases = (
-				FE68A36037E899F69B85B1DC7CDDAEA3 /* Sources */,
-				E15C82778C8944B91C1D40EC59BADDE2 /* Frameworks */,
-				0E8313A32833BAEFEBDED9E90B38C74F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NotifiOS;
-			productName = NotifiOS;
-			productReference = 1027BA51FA41F3BB4384C1B7AC922C91 /* NotifiOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8B74E45CA9C95914E9CB9DF7DADB1803 /* Pods-NotifiOS_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E90A92EC0E6B22943DADD079EEAEC87F /* Build configuration list for PBXNativeTarget "Pods-NotifiOS_Tests" */;
@@ -304,6 +291,23 @@
 			productReference = B33145A092D974430178A5D07CEB789B /* Pods_NotifiOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		AF61F031ADC4240DB67EA05412240F91 /* NotifiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C40D48A3918245D270F6FD1A3A436D /* Build configuration list for PBXNativeTarget "NotifiOS" */;
+			buildPhases = (
+				D31F39CDA195410BE67B3938C91114BE /* Sources */,
+				D9E38824A955C7E3D239540062F84E40 /* Frameworks */,
+				65E352255A5AB67F7705445635FC9861 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotifiOS;
+			productName = NotifiOS;
+			productReference = 1027BA51FA41F3BB4384C1B7AC922C91 /* NotifiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -325,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45B78A7AF014A4021BC4C44F6C2CCAE8 /* NotifiOS */,
+				AF61F031ADC4240DB67EA05412240F91 /* NotifiOS */,
 				AE2CE438038724FA842F384C3DF57C6E /* Pods-NotifiOS_Example */,
 				8B74E45CA9C95914E9CB9DF7DADB1803 /* Pods-NotifiOS_Tests */,
 			);
@@ -349,12 +353,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE68A36037E899F69B85B1DC7CDDAEA3 /* Sources */ = {
+		D31F39CDA195410BE67B3938C91114BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8FB194455AFA8E625B5A4FE03AB11E /* NotifiOS-dummy.m in Sources */,
-				4358CAE78965CA0CB0D15E75D6EBE27F /* ReplaceMe.swift in Sources */,
+				D3F56C7B7D1AE11A8210D94D9AE0E5EA /* NotifiOS-dummy.m in Sources */,
+				E4E51F52B3ED968F34BB1A43638DE612 /* NotifiOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +368,7 @@
 		06EDE8B7489FAF070607E85067CD42D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NotifiOS;
-			target = 45B78A7AF014A4021BC4C44F6C2CCAE8 /* NotifiOS */;
+			target = AF61F031ADC4240DB67EA05412240F91 /* NotifiOS */;
 			targetProxy = 31A3D8C6362DF2648EA9D2553ACC4EB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,65 +411,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		1DBB8EBB7DBC61A975EB92C5C0EDA80F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E27354A6FD2E54C03581D67E0407CF5 /* NotifiOS.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NotifiOS/NotifiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NotifiOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NotifiOS/NotifiOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NotifiOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2F68E2382FA291E2B10289C42A718F0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E27354A6FD2E54C03581D67E0407CF5 /* NotifiOS.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NotifiOS/NotifiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NotifiOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NotifiOS/NotifiOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NotifiOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		72D1D6EED080C0F4FD679472C394573D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -534,6 +479,35 @@
 			};
 			name = Debug;
 		};
+		B53662D237722AB181E4EBBAD9AFD9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E27354A6FD2E54C03581D67E0407CF5 /* NotifiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NotifiOS/NotifiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotifiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotifiOS/NotifiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NotifiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,6 +547,36 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E095DB4634CF35E36BF6C56DC84711AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E27354A6FD2E54C03581D67E0407CF5 /* NotifiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NotifiOS/NotifiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotifiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotifiOS/NotifiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NotifiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -654,11 +658,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		909A4622C4361DE9C37A613487AE5FEB /* Build configuration list for PBXNativeTarget "NotifiOS" */ = {
+		A4C40D48A3918245D270F6FD1A3A436D /* Build configuration list for PBXNativeTarget "NotifiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F68E2382FA291E2B10289C42A718F0E /* Debug */,
-				1DBB8EBB7DBC61A975EB92C5C0EDA80F /* Release */,
+				E095DB4634CF35E36BF6C56DC84711AC /* Debug */,
+				B53662D237722AB181E4EBBAD9AFD9EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
