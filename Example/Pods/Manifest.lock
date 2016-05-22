@@ -1,0 +1,16 @@
+PODS:
+  - NotifiOS (0.1.0)
+
+DEPENDENCIES:
+  - NotifiOS (from `../`)
+
+EXTERNAL SOURCES:
+  NotifiOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NotifiOS: ae6bb2e4324a3c62e11dc66101f3a6b72ae691b6
+
+PODFILE CHECKSUM: d41654612dc40a86c0ebb305fef417761d5b4715
+
+COCOAPODS: 1.0.0

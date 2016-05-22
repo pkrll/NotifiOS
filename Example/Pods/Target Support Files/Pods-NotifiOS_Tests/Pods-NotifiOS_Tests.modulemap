@@ -1,0 +1,6 @@
+framework module Pods_NotifiOS_Tests {
+  umbrella header "Pods-NotifiOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

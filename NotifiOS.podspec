@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NotifiOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NotifiOS.'
+  s.summary          = 'Simple Notification View for iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/NotifiOS'
+  s.homepage         = 'https://github.com/pkrll/NotifiOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ardalan Samimi' => 'ardalan.samimi@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NotifiOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pkrll/NotifiOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,6 +36,7 @@ TODO: Add long description of the pod here.
   #   'NotifiOS' => ['NotifiOS/Assets/*.png']
   # }
 
+  s.frameworks = 'UIKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

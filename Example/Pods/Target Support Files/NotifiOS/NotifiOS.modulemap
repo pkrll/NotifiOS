@@ -1,0 +1,6 @@
+framework module NotifiOS {
+  umbrella header "NotifiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
