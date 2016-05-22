@@ -9,6 +9,8 @@
 
 Create user notifications with NotifiOS, a very small and easy to use Swift library (subclassing UVIew).   
 
+<img src="https://raw.githubusercontent.com/pkrll/NotifiOS/master/screenshot.png" width="400">
+
 ## Requirements
 * iOS 8
 
